@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Github Checkout') {
             steps {
                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/TatoSec/DevOps-Jenkins.git']])
             }
@@ -10,15 +10,21 @@ pipeline {
         stage('Changing Directory') {
             steps {
                dir('/var/jenkins_home/workspace/Pipeline-Main/my-app') {
-    // some block
+   
 }
             }
         }
-        stage('Launch React App') {
+        stage('Launching App') {
             steps {
-               sh 'npm start'
+               dir('/var/jenkins_home/workspace/Pipeline-Main/my-app') {
+                   timeout(activity: true, time: 59, unit: 'SECONDS') {
+    sh 'npm start'
+}
+               }
+   
+
             }
         }
-    
+        
     }
 }

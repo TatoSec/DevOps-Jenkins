@@ -6,5 +6,4 @@
 * Go to `localhost:<PORT#>` and you should be prompted for this password 
 * While the docker container is running, run cmd: `docker ps` to see what containers are running - copy the container ID for Jenkins, like `8f7c957e19fd`
 * Run command: `docker exec -it -u 0 8f7c957e19fd /bin/bash` to open an interactive bash terminal within the Docker Container as root (user 0) 
-* Run command: `apt-get update` and `apt-get install python3` and `apt-get install python3-pip` to install Python3 and pip within the Docker container 
-* Run `pip install <package>` to install any python dependency needed within your containter.
+

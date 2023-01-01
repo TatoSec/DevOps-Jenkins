@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Devops Project
+          Github link!
         </a>
       </header>
     </div>

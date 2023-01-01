@@ -1,4 +1,4 @@
-## DevOps Jenkins-Docker-Python Project
+## DevOps Project
 ### Installation with Docker
 * Install Docker on your local machine.
 * Run this command, assign it to the port number of your choicer, recommend '8080': `docker run -p <PORT#>:<PORT#> -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`

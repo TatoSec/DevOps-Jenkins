@@ -19,7 +19,7 @@
 * Run command: `docker exec -it -u 0 8f7c957e19fd /bin/bash` to open an interactive bash terminal within the Docker Container as root (user 0) 
 
 ## Jenkins
-* Make sure your Docker container is running, as Jenkins uses the container as a environment
+* Make sure your Docker container is running, Jenkins uses the container as a environment
 * Once you have logged into Jenkins you will need to create a job
 * Name the project as you wish and select Pipeline for the job
 * The Pipeline should now be created select it and click ⚙️ Configure

@@ -1,7 +1,8 @@
 # Jenkins CI/CD Pipeline
 
-<img src="my-app\public\CI_CD diagram.drawio.png"></img>
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+<img src="my-app\public\CI_CD diagram.drawio.png"></img>
+
 
 
 

@@ -37,11 +37,11 @@
     sh 'npm start'} " We are creating a time out as we want the server to run for only a minute before it shuts down otherwise this stage would run indefinitely. As for "sh "npm start"" this is the script needed to initiate the web app.
     *Note: the 'sh' prefix allows us to run commands within our environment just as a user would. e.g 'sh "cat <filename>" ' would concatanate a file.
 
-![Alt Text]()
 
 
 
-## License
+
+### License
 
 MIT
 

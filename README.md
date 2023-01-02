@@ -16,7 +16,11 @@
 * Write down the password that's created for you during this first time set up process: like `8458e513eacd41d8875ca3253f47d3a0`
 * Go to `localhost:<8080>` and you should be prompted for this password 
 * While the docker container is running, run cmd: `docker ps` to see what containers are running - copy the container ID for Jenkins, like `8f7c957e19fd`
-* Run command: `docker exec -it -u 0 8f7c957e19fd /bin/bash` to open an interactive bash terminal within the Docker Container as root (user 0) 
+* Run command: `docker exec -it -u 0 8f7c957e19fd /bin/bash` to open an interactive bash terminal within the Docker Container as root (user 0)
+* Once we are inside the machine run "sudo apt-get update" to update repsitories
+* now run "apt-get install npm" 
+* now run "npm install react-scripts@latest" this will install the dependiencies for the react app
+
 
 ## Jenkins
 * Make sure your Docker container is running, Jenkins uses the container as an environment

@@ -1,6 +1,6 @@
 # Jenkins CI/CD Pipeline
 
-![Alt Text](C:\Users\gabef\DevOps-Jenkins-1\my-app\public\CI_CD diagram.drawio.png)
+![Alt Text](my-app\public\CI_CD diagram.drawio.png)
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 

@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          HelloW WOrld!
+          github!
         </a>
       </header>
     </div>

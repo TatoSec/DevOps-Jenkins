@@ -66,7 +66,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Ivan. I'm a Cyber Support Specialist at Threat Locker. I have a bachelors in Information Technologies, I believe in learning something new everyday, working with AI is my ultimate goal . You should hire me!",
+    bio: "Hello! I'm Ivan. I'm a Cyber Support Specialist at Threat Locker. I have a bachelors in Information Technologies, I believe in learning something new everyday, working with AI is my ultimate goal.",
     skills:
         {
             proficientWith: ['python','javascript', 'react', 'git', 'github', 'html', 'css','bash','openai','pandas','jenkins'],

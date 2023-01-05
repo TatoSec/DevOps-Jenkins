@@ -1,7 +1,7 @@
 # Jenkins CI/CD Pipeline
 ## ⚠️Documentation in Development⚠️
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-<img src="my-app\public\CI_CD diagram.drawio.png"></img>
+<img src="my-app\public\CI_CD diagram.png"></img>
 
 
 
